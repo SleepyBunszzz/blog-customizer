@@ -50,6 +50,10 @@
 	background: var(--gold, #ffc802);
 }
 
+.item[data-checked='false'] .label:active {
+	background: #c4c4c4;
+}
+
 .container {
 	display: flex;
 	flex-direction: column;

@@ -4,6 +4,7 @@ import { OptionType } from 'src/constants/articleProps';
 type UseEnterSubmit = {
 	onChange?: (option: OptionType) => void;
 	option: OptionType;
+	optionRef: React.RefObject<HTMLDivElement>;
 };
 
 export const useEnterSubmit = ({ onChange, option }: UseEnterSubmit) => {
